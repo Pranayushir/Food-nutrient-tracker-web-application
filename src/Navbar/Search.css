@@ -1,0 +1,27 @@
+.searchInputs{
+    margin-top: 105px;
+    margin-left: 605px;
+    display: flex;
+}
+
+.inputs{
+    background-color: aqua;
+    color: black;
+    border: 1px;
+    border-radius: 10px;
+    border-color: black;
+    padding: 15px;
+    height: 30px;
+    width: 300px;
+}
+
+.searchIcon{
+    height: 50px;
+    width: 60px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+.inputs:focus{
+    outline: none;
+}
